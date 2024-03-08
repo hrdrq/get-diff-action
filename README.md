@@ -1,9 +1,9 @@
 # Get Diff Action
 
-[![CI Status](https://github.com/technote-space/get-diff-action/workflows/CI/badge.svg)](https://github.com/technote-space/get-diff-action/actions)
-[![codecov](https://codecov.io/gh/technote-space/get-diff-action/branch/main/graph/badge.svg)](https://codecov.io/gh/technote-space/get-diff-action)
-[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/get-diff-action/badge)](https://www.codefactor.io/repository/github/technote-space/get-diff-action)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/technote-space/get-diff-action/blob/main/LICENSE)
+[![CI Status](https://github.com/hrdrq/get-diff-action/workflows/CI/badge.svg)](https://github.com/hrdrq/get-diff-action/actions)
+[![codecov](https://codecov.io/gh/hrdrq/get-diff-action/branch/main/graph/badge.svg)](https://codecov.io/gh/hrdrq/get-diff-action)
+[![CodeFactor](https://www.codefactor.io/repository/github/hrdrq/get-diff-action/badge)](https://www.codefactor.io/repository/github/hrdrq/get-diff-action)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hrdrq/get-diff-action/blob/main/LICENSE)
 
 *Read this in other languages: [English](README.md), [日本語](README.ja.md).*
 
@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v6
+      - uses: hrdrq/get-diff-action@v6
         with:
           PATTERNS: |
             +(src|__tests__)/**/*.ts
@@ -106,7 +106,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v6
+      - uses: hrdrq/get-diff-action@v6
         with:
           PATTERNS: |
             +(src|__tests__)/**/*.ts
@@ -244,7 +244,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v6
+      - uses: hrdrq/get-diff-action@v6
         with:
           CHECK_ONLY_COMMIT_WHEN_DRAFT: true
       # ...
@@ -260,7 +260,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v6
+      - uses: hrdrq/get-diff-action@v6
         with:
           PATTERNS: |
             +(src|__tests__)/**/*.ts
@@ -292,7 +292,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: technote-space/get-diff-action@v6
+      - uses: hrdrq/get-diff-action@v6
         with:
           PATTERNS: '*.ts'
           RELATIVE: 'src/abc'
@@ -305,8 +305,3 @@ If the files `src/abc/test1.ts`, `src/abc/test2.ts`, `src/abc/test3.txt`, and `s
 > Run echo 'test1.ts' 'test2.ts'
 test1.ts test2.ts
 ```
-
-## Author
-[GitHub (Technote)](https://github.com/technote-space)
-
-[Blog](https://technote.space)

@@ -1,6 +1,6 @@
 {
-  "name": "@technote-space/get-diff-action",
-  "version": "6.1.2",
+  "name": "@hrdrq/get-diff-action",
+  "version": "7.0.0",
   "description": "GitHub actions to get git diff.",
   "keywords": [
     "github",
@@ -8,11 +8,11 @@
   ],
   "homepage": "https://github.com/technote-space/get-diff-action",
   "bugs": {
-    "url": "https://github.com/technote-space/get-diff-action/issues"
+    "url": "https://github.com/hrdrq/get-diff-action/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/technote-space/get-diff-action.git"
+    "url": "https://github.com/hrdrq/get-diff-action.git"
   },
   "license": "MIT",
   "author": {
