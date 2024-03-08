@@ -1,7 +1,7 @@
 # Contributing
-[issues]: https://github.com/technote-space/get-diff-action/issues
-[fork]: https://github.com/technote-space/get-diff-action/fork
-[pr]: https://github.com/technote-space/get-diff-action/compare
+[issues]: https://github.com/hrdrq/get-diff-action/issues
+[fork]: https://github.com/hrdrq/get-diff-action/fork
+[pr]: https://github.com/hrdrq/get-diff-action/compare
 [eslint]: https://eslint.org/
 [jest]: https://jestjs.io/
 [code-of-conduct]: CODE_OF_CONDUCT.md
